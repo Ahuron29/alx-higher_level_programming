@@ -5,5 +5,4 @@ function factorial (a) {
   }
   return factorial(a - 1) * a;
 }
-
 console.log(factorial(parseInt(process.argv[2])));
